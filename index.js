@@ -11,6 +11,8 @@ const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
 
 function createFareMultiplier(integer) {
   return function multiplier(fare) {
-    return fare * integer 
+    return fare * integer
   }
 }
+
+const fareDoubler = function createFareMultiplier(2)

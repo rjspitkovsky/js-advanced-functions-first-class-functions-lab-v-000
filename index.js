@@ -19,6 +19,10 @@ function fareDoubler(fare) {
   return fare * 2
 }
 
+function fareTripler(fare) {
+  return fare * 3
+}
+
 function selectDifferentDrivers(drivers, fn) {
   return fn(drivers)
 }

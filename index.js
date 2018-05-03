@@ -14,3 +14,7 @@ function createFareMultiplier(integer) {
     return fare * integer
   }
 }
+
+function selectDifferentDrivers(drivers, fn) {
+  return fn(drivers)
+}
